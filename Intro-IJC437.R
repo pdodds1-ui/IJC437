@@ -15,8 +15,6 @@ setwd("~/SHEFFIELD/INTRO TO DS/COURSEWORK/musicO/musicoset_songfeatures")
 #set working directory to folder containing all needed csv files downloaded from MusicOSet
 
 song_chart <- read_tsv("song_chart.csv")
-artists <- read_tsv("artists.csv")
-songs <- read_tsv("songs.csv")
 lyrics <- read_tsv("lyrics.csv")
 #read_tsv used due to the nature of the csv files.
 
@@ -468,4 +466,5 @@ binomial_classification_error_lyrics <- mean(
 #calculates number of correctly predicted hit and non hit songs
 
 print(paste('Accuracy',1-binomial_classification_error_lyrics))
+
 #Accuracy on a scale of 0 to 1 calculated.
