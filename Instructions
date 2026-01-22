@@ -1,5 +1,0 @@
-First download the folders of 'popularity' and 'songfeatures' from https://marianaossilva.github.io/DSW2019/ - these were too large to upload to GitHub directly into my repository.
-Extract the folders. Deposit the necessary CSV files (lyrics.csv and acoustic_features.csv from the songfeatures folder as well as song_chart.csv from the popularity folder) into the same folder
-Copy the R code and paste into an R script file. Edit the code to set the working directory to the relevant folder containing the CSV files.
-Make sure to install and load all the libraries listed before running any code.
-Run the code.
